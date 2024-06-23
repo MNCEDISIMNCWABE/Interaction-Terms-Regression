@@ -32,8 +32,12 @@ Upond building the model the following results were observed:
 - The model without the interaction term explains about 80% (test R-squared) of the variance in the ```time_spent```, with a mean squared error (MSE) of 2.11. This means that, on average, the predictions of ```time_spent``` are off by about 2.11 squared units. While this model is fairly accurate, there's room for improvement.
 - Additionally, the plot visually confirms that while the model performs reasonably well, there is significant room for improvement, particularly in capturing higher values of time_spent.
 
-<img width="596" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/511b76a7-a11b-4f89-a942-ceab2d82cd9e">
+<img width="664" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/b9fc1b5a-d27d-4039-b903-f4e5438e7a89">
+
+
 
 ![image](https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/13ccbb7d-ed3b-405b-93e4-a7cba3b21952)
 
+
+#### Model with interaction term
 
