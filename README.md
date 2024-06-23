@@ -10,3 +10,10 @@ Let's first generated a synthetic dataset to simulate user activity on an ecomme
 - ```time_spent``` : The total time a user spent on an ecommerce platfotm (continuous). We are trying to predict this feature, i.e, how long a user will spend on an ecommerce platform based on whether they add items to cart and making a purchase.
 
 <img width="311" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/363df886-3bc6-45e5-86d2-449cbefbce47">
+
+Below we can start by examining the relationship between these two features and time spent.
+
+![image](https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/022919b7-109d-4e65-8c76-4aac47fdfee4)
+
+- As indicated by the boxplots above, both adding items to the cart and making a purchase are associated with significantly higher time spent on the platform.
+- The median time spent by users who engaged in these actions is roughly double that of users who did not engage in these actions.
