@@ -27,7 +27,7 @@ Next, we will build another model that includes the interaction term between add
 
 #### Model without interaction term
 
-Upond building the model the following results were observed: 
+Upon building the model the following results were observed: 
 
 - The model without the interaction term explains about 80% (test R-squared) of the variance in the ```time_spent```, with a mean squared error (MSE) of 2.11. This means that, on average, the predictions of ```time_spent``` are off by about 2.11 squared units. While this model is fairly accurate, there's room for improvement.
 - Additionally, the plot visually confirms that while the model performs reasonably well, there is significant room for improvement, particularly in capturing higher values of time_spent.
