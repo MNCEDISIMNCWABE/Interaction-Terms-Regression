@@ -5,6 +5,6 @@ In regression modeling, interaction terms are used to capture the combined effec
 
 #### Example: User Activity and Time Spent
 Let's first generated a synthetic dataset to simulate user activity on an ecommerce platform. The dataset includes:
-- ``added_in_cart``: Whether the user added items to cart (1 for adding to cart 0r 0 for not adding to cart).
-- ```purchased```: Whether the user made a purchase or now (1 for making a purchase or 0 for not making a purchase).
-- ```time_spent```: The total time the user spent on the website (continuous). We are trying to predict this, i.e, how long a user will spend on the ecommerce platform based on whether they add items to cart and making a purchase.
+- ``added_in_cart`` : Whether the user added items to cart (1 for adding to cart 0r 0 for not adding to cart).
+- ```purchased``` : Whether the user made a purchase or now (1 for making a purchase or 0 for not making a purchase).
+- ```time_spent``` : The total time the user spent on the website (continuous). We are trying to predict this, i.e, how long a user will spend on the ecommerce platform based on whether they add items to cart and making a purchase.
