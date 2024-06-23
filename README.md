@@ -8,3 +8,6 @@ Let's first generated a synthetic dataset to simulate user activity on an ecomme
 - ``added_in_cart`` : Whether a user added items to cart or not (1 for adding to cart or 0 for not adding to cart).
 - ```purchased``` : Whether a user made a purchase or not (1 for making a purchase or 0 for not making a purchase).
 - ```time_spent``` : The total time a user spent on an ecommerce platfotm (continuous). We are trying to predict this feature, i.e, how long a user will spend on an ecommerce platform based on whether they add items to cart and making a purchase.
+
+Data snapshot:
+<img width="311" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/363df886-3bc6-45e5-86d2-449cbefbce47">
