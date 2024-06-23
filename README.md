@@ -41,3 +41,29 @@ Upond building the model the following results were observed:
 
 #### Model with interaction term
 
+```df['purchased_added_in_cart'] = df['purchased'] * df['added_in_cart']```
+
+- The scatter plot with the interaction term shows predicted values much closer to the actual values, indicating a better fit for the model with interacting term.
+- The higher test R-squared value (from 80.36% to 90.46%) indicates that the model with the interaction term explains much more of the variance in the ```time_spent```.
+- The lower MSE (from 2.11 to 1.02) indicates that the predictions of the model with the interaction term are more accurate.
+- This improved fit is evident from the closer alignment of points to the diagonal line, especially for higher values of ```time_spent```. The interaction term helps capture the combined effect of user actions on the time spent.
+
+<img width="620" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/e5ad2eb5-7565-423b-ba8f-433249c8d0f5">
+
+![image](https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/e491fadc-ca0e-47e2-8e09-73270d6b8e76)
+
+
+### Putting it all together
+
+- The blue points represent the model predictions without the interaction term. These points are more spread out from the diagonal line, especially for higher actual time spent values.
+- The red points represent the model predictions with the interaction term. These points are closer to the diagonal line, showing that the model with the interaction term makes more accurate predictions, particularly for higher actual time spent values.
+- 
+![image](https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/360fd295-0f10-4ef8-b267-b06a362de2ab)
+
+
+## Conclusion:
+The improvement in the model's performance with the interaction term demonstrates that sometimes adding interaction terms to your model may enhance its importance. This example highlights how interaction terms can capture additional information that is not apparent from the main effects alone. In practice, considering interaction terms in regression models can lead to more accurate and insightful predictions.
+
+
+
+
