@@ -17,3 +17,23 @@ Below we can start by examining the relationship between these two features and 
 
 - As indicated by the boxplots above, both adding items to the cart and making a purchase are associated with significantly higher time spent on the platform.
 - The median time spent by users who engaged in these actions is roughly double that of users who did not engage in these actions.
+
+
+### Modelling
+
+Since we are exploring the use of interaction terms, we'll start by building a regression model to predict the time users spend on the website based on two actions: adding an item to the cart and making a purchase. Initially, we will build the model without considering the interaction between these actions. This means we want to see if each action independently affects the time spent on the website.
+
+Next, we will build another model that includes the interaction term between adding items to the cart and making a purchase. This will allow us to compare the combined effect of these actions on the time spent on the website with their individual effects. This means we want to determine if users who both add items to their cart and make a purchase spend more time on the website than what would be expected by simply adding together the effects of each action done independently.
+
+#### Model without interaction term
+
+Upond building the model the following results were observed: 
+
+- The model without the interaction term explains about 85% (R-squared) of the variance in the ```time_spent```, with a mean squared error (MSE) of 2.11. This means that, on average, the predictions of ```time_spent``` are off by about 2.11 squared units. While this model is fairly accurate, there's room for improvement.
+- Additionally, the plot visually confirms that while the model performs reasonably well, there is significant room for improvement, particularly in capturing higher values of time_spent.
+
+<img width="596" alt="image" src="https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/511b76a7-a11b-4f89-a942-ceab2d82cd9e">
+
+![image](https://github.com/MNCEDISIMNCWABE/Interaction-Terms/assets/67195600/13ccbb7d-ed3b-405b-93e4-a7cba3b21952)
+
+
