@@ -1,3 +1,5 @@
+Read More on My Blob Post: https://www.analyticsvidhya.com/blog/2024/08/a-guide-to-understanding-interaction-terms/
+
 ## Understanding Interaction Terms in Regression: A Practical Example
 
 #### Overview
