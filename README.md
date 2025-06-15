@@ -64,7 +64,7 @@ Upon building the model the following results were observed:
 
 
 ## Conclusion
-The improvement in the model's performance with the interaction term demonstrates that sometimes adding interaction terms to your model may enhance its importance. This example highlights how interaction terms can capture additional information that is not apparent from the main effects alone. In practice, considering interaction terms in regression models can lead to more accurate and insightful predictions.
+The improvement in the model's performance with the interaction term demonstrates that sometimes adding interaction terms to your model may enhance its performance. This example highlights how interaction terms can capture additional information that is not apparent from the main effects alone. In practice, considering interaction terms in regression models can lead to more accurate and insightful predictions.
 
 
 
